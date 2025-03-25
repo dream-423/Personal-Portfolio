@@ -7,8 +7,8 @@ $white: #fff;
 $black: #000000;
 $darken: #232931;
 
-$primary: #3e64ff;
-$secondary: #a0f669;
+$primary: #3e64fb;
+$secondary: #a0f680;
 
 
 
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5,
 						content: "";
 						position: absolute;
 						width: 100%;
-						height: 2px;
+						height: .2rem;
 						bottom: 0;
 						left: 0;
 						background: $primary;
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5,
 					}
 					&:hover{
 						background: $primary;
-						border: 1px solid $primary;
+						border: 2px solid $primary;
 					}
 				}
 				&.cta-colored {
